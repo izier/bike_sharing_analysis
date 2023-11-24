@@ -28,7 +28,7 @@ hourly_df = hourly_df.rename(columns={"dteday": "date",
                                       "cnt": "count"})
 
 # Judul dashboard
-st.title('Kesimpulan Analisis Bike Sharing')
+st.title('Analisis Bike Sharing')
 tab1, tab2, tab3 = st.tabs(["Grafik", "Statistik", "Korelasi"])
 with tab1:
     # Korelasi antara musim dan jumlah penyewaan sepeda
